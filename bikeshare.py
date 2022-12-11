@@ -74,7 +74,7 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
-    # TO DO: display the most common month
+    # TO DO: display the most common month:-
     
     #find the most common month
     mc_month = df['month'].mode()[0]
@@ -82,7 +82,7 @@ def time_stats(df):
     print('Most Frequent month: {} - Count: {}'.format(mc_month, mc_month_count))
     
     
-    # TO DO: display the most common day of week
+    # TO DO: display the most common day of week:-
     
     #find the most common day
     mc_day = df['day_of_week'].mode()[0]
@@ -90,7 +90,7 @@ def time_stats(df):
     print('Most Frequent day: {} - Count: {}'.format(mc_day, mc_day_count))
     
     
-    # TO DO: display the most common start hour
+    # TO DO: display the most common start hour:-
     
     #extract hour from the Start Time to create an hour column
     df['hour'] = df['Start Time'].dt.hour
@@ -109,21 +109,21 @@ def station_stats(df):
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
-    # TO DO: display most commonly used start station
+    # TO DO: display most commonly used start station:-
     
     #find the most common start station
     mc_start = df['Start Station'].mode()[0]
     mc_start_count = df['Start Station'].value_counts()[mc_start]
     print('Most Frequent Start Station: {} - Count: {}'.format(mc_start, mc_start_count))
 
-    # TO DO: display most commonly used end station
+    # TO DO: display most commonly used end station:-
     
     #find the most common start station
     mc_end = df['End Station'].mode()[0]
     mc_end_count = df['End Station'].value_counts()[mc_end]
     print('Most Frequent End Station: {} - Count: {}'.format(mc_end, mc_end_count))
 
-    # TO DO: display most frequent combination of start station and end station trip
+    # TO DO: display most frequent combination of start station and end station trip:-
     
     mc_comb = df[['Start Station', 'End Station']].mode().loc[0]
     print('Most Frequent combination of start station and end station trip: ({}) TO ({})'.format(mc_comb[0], mc_comb[1]))
