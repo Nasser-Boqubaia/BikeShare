@@ -7,7 +7,7 @@
 ** BikeShare **
 
 ### Description
-This project uses Python to extract, filter, and apply calculations to one of three Excel sheet files based on the user choices.
+This project uses Python to *extract, filter, and apply calculations* to one of three Excel sheet files based on the user choices.
 
 ### Files used
 -bikeshare.py  
