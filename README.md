@@ -1,17 +1,20 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+
 
 ### Date created
-Include the date you created this project and README file.
+*** Date: 11/Dec/2022 ***
 
 ### Project Title
-Replace the Project Title
+** BikeShare **
 
 ### Description
-Describe what your project is about and what it does
+This project uses Python to extract, filter, and apply calculations to one of three Excel sheet files based on the user choices.
 
 ### Files used
-Include the files used
+-bikeshare.py  
+-chicago.csv  
+-new_york_city.csv  
+-washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I would like to thank **SDA** and **Udacity** who inspired me and supported me to make this project.
 
